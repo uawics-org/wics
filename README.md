@@ -2,8 +2,7 @@
 <h4>wics site<h4>
 <ul>github page: https://uawics-org.github.io/wics/<ul>
 <ul>Improvements needed:<ul>
-<li>redesign<li>
-<li>-add color theme<li>
+
 <li>-add content<li>
 <li>-add images<li>
 <li>-add google forms<li>
