@@ -116,10 +116,27 @@ h1.about-us {
 
 }
 
+.centered-heading-col {
+  margin-top: .5em;
+  font-size: 48px;
+  padding:30px;
+  letter-spacing: .1em;
+  font-weight: 400;
+}
+
 .team-img {
   height: 250px;
   width:250px;
   border-radius: 50%;
+}
+
+.line-height{
+  line-height: 2em;
+}
+
+.init-img{
+  height:250px;
+  width:250px
 }
 
 .member-title {
@@ -133,3 +150,48 @@ h1.about-us {
   margin-bottom: 40px;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: normal;
+}
+
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(3) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+
+.flex-items:nth-child(4) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
