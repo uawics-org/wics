@@ -108,7 +108,7 @@ h1.about-us {
 
 .centered-heading{
   margin-top: .5em;
-  font-size: 48px;
+  font-size: 84px;
   padding:30px;
   letter-spacing: .1em;
   font-weight: 400;
@@ -124,6 +124,7 @@ h1.about-us {
 
 .member-title {
  margin:20px;
+ font-size: 24px;
  text-align: center;
 }
 
