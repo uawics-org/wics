@@ -105,3 +105,30 @@ h1.about-us {
   font-family: monospace;
   color:#683669;
 }
+
+.centered-heading{
+  margin-top: .5em;
+  font-size: 48px;
+  padding:30px;
+  letter-spacing: .1em;
+  font-weight: 400;
+
+
+}
+
+.team-img {
+  height: 250px;
+  
+  border-radius: 50%;
+}
+
+.member-title {
+ margin:20px;
+ text-align: center;
+}
+
+.team-contact{
+  margin-top:40px;
+  margin-bottom: 40px;
+}
+
