@@ -109,8 +109,8 @@ h1.about-us {
 }
 
 .sponsor-img{
-  max-height: 500px;
-  max-width:500px;
+  height: auto;
+  width:100%;
 }
 
 .sponsor-tiers {
@@ -232,7 +232,7 @@ h1.about-us {
   }
 
   
-  .info {
+  .info, .info-i, .info-s {
    
     margin: auto;
     text-align: center;
@@ -240,13 +240,7 @@ h1.about-us {
     padding-bottom: 20px;
   }
 
-  .info-i {
-   
-    margin: auto;
-    text-align: center;
-    line-height: 3.5em;
-    padding-bottom: 20px;
-  }
+  
   .info p {
     margin-bottom:0;
   }
@@ -290,7 +284,7 @@ h1.about-us {
     letter-spacing: 0em; 
  
 }
-.info-i {
+.info-i, .info-s{
     margin: auto;
     text-align: center;
     line-height: 1.5em;
