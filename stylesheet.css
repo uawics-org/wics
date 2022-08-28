@@ -303,6 +303,7 @@ h1.about-us {
   }
   .club-name {
     font-size:3em;
+    text-align: center;
   }
   .container-fluid, .xs-col-12, .sm-col-6 {
     padding-left: 0 !important;
@@ -384,6 +385,7 @@ h1.about-us {
   @media screen and (max-width: 425px){
     .club-name {
       font-size: 2.5em;
+      
   }
 
   h1.about-us {
