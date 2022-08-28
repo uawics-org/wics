@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-   
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/42d8016a1e.js" crossorigin="anonymous"></script>
@@ -35,63 +35,166 @@
   </nav>
 
   </navbar>
+  <nav class="navbar navbar" id="mobile-nav">
 
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="index.html">
+      <img src="img/wics-logo.png" width="30" height="30" alt="">
+    </a>
   
-  <div class="flex-container container-fluid">
-    <div class="flex-items">
+    <!-- Collapse button -->
+    <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+      aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+          class="fas fa-bars fa-1x"></i></span></button>
+  
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+  
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="initiatives.html">Initiatives</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="team.html">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sponsor.html">Sponsor</a>
+        </li>
+      </ul>
+      <!-- Links -->
+  
+    </div>
+    <!-- Collapsible content -->
+  
+  </nav>
+
+  <!-- id="fullscreen" -->
+
+<div class="container-fluid"  >
+  <div class="row" id="section1">
+    <div class="col-12 col-md-6 col-lg-3"> 
       <h1 class="centered-heading-col text-center">mentorship</h1>
-      <p class="m-3 text-center line-height">we offer mentorship and
+      <div class="info-i">
+      <p class="mentorship">we offer mentorship and
         guidance sessions for our members and connect them with resources on and off
         campus!
         </p>
+        <img class="init-img" id="mobile-device-img" src="img/mentorship.png">
+      </div>
+      
+    
+  </div>
+  <div class="col-12 col-md-6 col-lg-3"> 
+    <h1 class="centered-heading-col text-center">website</h1>
+    <div class="info-i">
+    <p class="mentorship2">from 2021-2022, we had the WICS Website Project, where we involved our members in building our new website and taught them essential web dev
+      skills such as bootstrap, html/css, and ux/ui design
+      </p>
+      <img class="init-img" id="mobile-device-img" src="img/mob-img.png">
     </div>
-    <div class="flex-items">
-      <h1 class="centered-heading-col text-center">website</h1>
+    
+  
+</div>
+<div class="col-12 col-md-6 col-lg-3"> 
+  <h1 class="centered-heading-col text-center">socials</h1>
+  <div class="info-i">
+  <p class="mentorship3">we do socials throughout the year. in the fall 2021 semester,
+    we went to a Tucson Roadrunners game, and in the spring 2022 semester, we went to a local play about Ada
+    Lovelace!
+    </p>
+    <img class="init-img"  id="mobile-device-img" src="img/IMG_3072.png">
+  </div>
+  
+
+</div>
+<div class="col-12 col-md-6 col-lg-3"> 
+  <h1 class="centered-heading-col text-center">workshops</h1>
+  <div class="info-i">
+  <p class="mentorship4">we offer career guidance
+    sessions and technical workshops to ensure our members are equipped for success both in and outside
+    the classroom
+    </p>
+    <img class="init-img" id="mobile-device-img" src="img/IMG-20191003-WA0012.jpg">
+  </div>
+  
+
+</div>
+    </div>
+    <div class="row" id="section1">
+      <div class="col-12 col-md-6 col-lg-3" id="fullscreen-img"> 
      
-        <p class="m-3 text-center line-height" >from 2021-2022, we had the WICS Website Project, where we involved our members in building our new website and taught them essential web dev
-        skills such as bootstrap, html/css, and ux/ui design
-        </p>
-    </div>
-    <div class="flex-items">
-      <h1 class="centered-heading-col text-center">socials</h1>
+        <div class="info">
+
+          <img class="init-img" src="img/mentorship.png">
+        </div>
+        
       
-        <p class="m-3 text-center line-height">we do socials throughout the year. in the fall 2021 semester,
-        we went to a Tucson Roadrunners game, and in the spring 2022 semester, we went to a local play about Ada
-        Lovelace!
-        </p>
     </div>
-    <div class="flex-items">
-      <h1 class="centered-heading-col text-center">workshops</h1>
+    <div class="col-12 col-md-6 col-lg-3" id="fullscreen-img"> 
       
-        <p class="m-3 text-center line-height" >we offer career guidance
-        sessions and technical workshops to ensure our members are equipped for success both in and outside
-        the classroom
-        </p>
+      <div class="info">
+    
+        <img class="init-img" src="img/mob-img.png">
+      </div>
+      
+    
+  </div>
+  <div class="col-12 col-md-6 col-lg-3" id="fullscreen-img"> 
+ 
+    <div class="info">
+    
+      <img class="init-img" src="img/IMG_3072.png">
     </div>
- </div>
- <div class="flex-container container-fluid align-items-center">
-  <div class="flex-items">
-    <img class="init-img m-5" src="img/mentorship.png">
+    
+  
   </div>
-  <div class="flex-items">
-    <img class="init-img m-5" src="img/wics-meeting.png">
+  <div class="col-12 col-md-6 col-lg-3" id="fullscreen-img"> 
+
+    <div class="info">
+  
+      <img class="init-img" src="img/IMG-20191003-WA0012.jpg">
+    </div>
+    
+  
   </div>
-  <div class="flex-items">
-    <img class="init-img m-5" src="img/IMG_3072.png">
+      </div>
   </div>
-  <div class="flex-items text-center">
-    <img class="init-img m-5 text-center" src="img/IMG-20191003-WA0012.jpg">
+
+<!-- <div class="container-fluid" id="mobile-device">
+
+  <div class="xs-col-12 sm-col-6">
+    
+    <div class="info">
+    <p class="club-name">Women in Information and Computer Science</p>
+    <p class="school-name">University of Arizona</p>
+    
   </div>
-</div>
-<div class="container-fluid">
-<div class="row align-items-center">
-  <div class="col text-center">
-    <p>Check out our instagram for more details!</p>
-    <p>@uawics</p>
-  </div>
-</div>
 </div>
   
+ 
+    <div class="xs-col-12 sm-col-6">
+    <img src="img/mob-img.png" class="img-home" alt="WICS meeting in the UA Library Catalyst Studios">
+  </div>
+  <div class="info">
+  <p class="social-media">@uawics</p>
+    <div class="icons"> 
+      <i class="fa-brands fa-instagram fa-2xl"></i>
+      <i class="fa-brands fa-linkedin fa-2xl"></i>
+      <i class="fa-brands fa-youtube fa-2xl"></i>
+      <i class="fa-brands fa-spotify fa-2xl"></i>
+    </div>
+      
+    </div>
+  </div> -->
+
+
 
 
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
