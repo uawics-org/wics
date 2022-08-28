@@ -165,7 +165,7 @@ h1.about-us {
 }
 
 .member-title {
- margin:20px;
+ margin:19px;
  font-size: 24px;
  text-align: center;
 }
@@ -175,7 +175,17 @@ h1.about-us {
   margin-bottom: 40px;
 }
 
-.flex-container {
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* .flex-container {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -219,7 +229,7 @@ h1.about-us {
   flex-basis: auto;
   align-self: auto;
   order: 0;
-}
+} */
 
 @media screen and (max-width: 1024px) {
   .container-fluid {
@@ -336,13 +346,22 @@ h1.about-us {
     line-height: 1.5em;
     padding-bottom: 20px;
 }
+
+.centered-heading {
+  font-size: 48px;
+  letter-spacing: .05em;
+}
+
+
 }
 
 @media screen and (max-width: 991px) {
   #fullscreen-img {
     display:none;
   }
-
+  #hide-col {
+    display:none;
+  }
   #mobile-device-img {
     display:block;
   }
