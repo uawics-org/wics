@@ -56,7 +56,7 @@ html, body, .container-fluid {
   padding-right:0 !important;
 }
 
-.info {
+.info, .info-i {
   margin:2em;
   font-family: Arial, Helvetica, sans-serif;
   color: #683669;
@@ -129,12 +129,25 @@ h1.about-us {
 }
 
 .centered-heading-col {
-  margin-top: .5em;
+  margin-top: 0.5em;
   font-size: 48px;
-  padding:30px;
+  padding-top: 30px;
   letter-spacing: .1em;
   font-weight: 400;
 }
+
+#mobile-device-img {
+  display:none;
+}
+.mentorship2 {
+  padding-bottom: 0.9em;
+}
+
+.mentorship3, .mentorship4 {
+  padding-bottom: 2.3em
+}
+
+
 
 .team-img {
   height: 250px;
@@ -147,8 +160,8 @@ h1.about-us {
 }
 
 .init-img{
-  height:250px;
-  width:250px
+  height: auto;
+  width: 100%;
 }
 
 .member-title {
@@ -258,7 +271,17 @@ h1.about-us {
   #mobile-device  {
     display:block;
   }
+
+  
   .info {
+   
+    margin: auto;
+    text-align: center;
+    line-height: 3.5em;
+    padding-bottom: 20px;
+  }
+
+  .info-i {
    
     margin: auto;
     text-align: center;
@@ -302,11 +325,42 @@ h1.about-us {
     padding: 1em;
     line-height: 1.5em;
   }
-
+  .centered-heading-col {
+   
+    letter-spacing: 0em; 
+ 
+}
+.info-i {
+    margin: auto;
+    text-align: center;
+    line-height: 1.5em;
+    padding-bottom: 20px;
+}
 }
 
+@media screen and (max-width: 991px) {
+  #fullscreen-img {
+    display:none;
+  }
 
+  #mobile-device-img {
+    display:block;
+  }
 
+  p.mentorship {
+    padding-bottom: 4em;
+  }
+}
+
+@media screen and (max-width: 888px){
+  
+.mentorship2 {
+  padding-bottom: 2.4em;
+}
+.mentorship4 {
+  padding-bottom: 3.9em;
+}
+}
 
   @media screen and (max-width: 425px){
     .club-name {
