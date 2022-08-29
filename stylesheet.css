@@ -17,7 +17,14 @@ html, body, .container-fluid {
   
 
 }
+.icons a {
+color:#683669;
+ 
+}
 
+.fa-solid.fa-people-group, .fa-solid.fa-circle-info {
+ color:#683669;
+}
 #mobile-nav {
   display:none;
   
@@ -75,7 +82,7 @@ html, body, .container-fluid {
 .social-media {
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 2em;
+  /* margin-bottom: 2em; */
 }
 .img-home {
 width: 100%;
@@ -289,6 +296,8 @@ h1.about-us {
     text-align: center;
     line-height: 1.5em;
     padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .centered-heading {
@@ -312,6 +321,7 @@ h1.about-us {
 
   p.mentorship {
     padding-bottom: 4em;
+    
   }
 }
 
