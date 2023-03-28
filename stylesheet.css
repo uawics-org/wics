@@ -157,8 +157,8 @@ h1.about-us {
 
 
 .team-img {
-  height: 250px;
-  width:250px;
+  height: 10rem;
+  width:  10rem;
   border-radius: 50%;
 }
 
@@ -173,8 +173,14 @@ h1.about-us {
 
 .member-title {
  margin:19px;
- font-size: 24px;
+ font-size: 1.5rem;
  text-align: center;
+}
+
+#wics-alumni-div h3{
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 400;
 }
 
 .team-contact{
@@ -182,10 +188,20 @@ h1.about-us {
   margin-bottom: 40px;
 }
 
+table{
+  margin-top : 2em;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #683669;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #683669;
+}
 
-
-
-
+th, td {
+  border: 1px solid #683669;
+  padding: 8px;
+  text-align: center;
+}
 
 @media screen and (max-width: 1024px) {
   .container-fluid {
